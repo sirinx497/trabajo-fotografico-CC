@@ -259,16 +259,21 @@ figure:hover figcaption {
 
 }   
 /* distribucion de fotitos  */
+
 .fotos-dobles {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    align-items: start; 
 }
+
 
 .fotos-dobles img {
     aspect-ratio: 3 / 4; 
-    object-fit: cover; 
+    object-fit: cover;
     width: 100%;
+    height: 100%; 
+    display: block;
 }
 
 
