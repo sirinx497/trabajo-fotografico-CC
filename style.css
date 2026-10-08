@@ -265,6 +265,12 @@ figure:hover figcaption {
     gap: 20px;
 }
 
+.fotos-dobles img {
+    aspect-ratio: 3 / 4; 
+    object-fit: cover; 
+    width: 100%;
+}
+
 
 .fotos-dobles figure {
     margin: 20px 0; 
