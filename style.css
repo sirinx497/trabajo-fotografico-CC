@@ -199,7 +199,7 @@ p {
 /* 
    CITAS Y ENTREVISTAS
     */
-video {
+edit {
   width: 100%;
   max-width: 600px;
   border-radius: 15px;
@@ -230,9 +230,9 @@ blockquote:hover {
     */
 figure {
     margin: 40px 0;
-    overflow: hidden; /* Clave: evita que la foto se salga de su caja al crecer */
-    border-radius: 6px; /* Bordes un poquito más modernos y suaves */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Sombra muy sutil de base */
+    overflow: hidden; 
+    border-radius: 6px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
 }
 
 img {
