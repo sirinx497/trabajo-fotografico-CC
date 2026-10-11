@@ -199,12 +199,15 @@ p {
 /* 
    CITAS Y ENTREVISTAS
     */
-video {
+.video-entrevista {
   width: 100%;
   max-width: 600px;
+  height: 450px; 
   border-radius: 15px;
   display: block;
   margin: 20px auto;
+  border: none; 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
 }
 blockquote {
     font-size: 24px;
