@@ -199,6 +199,13 @@ p {
 /* 
    CITAS Y ENTREVISTAS
     */
+video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+  display: block;
+  margin: 20px auto;
+}
 blockquote {
     font-size: 24px;
     font-style: italic;
