@@ -507,6 +507,6 @@ figure:hover figcaption {
 
 @media (max-width: 768px) {
   .video-entrevista {
-    height: 300px; /* Hace que el video sea un poco más bajito en celulares */
+    height: 300px; 
   }
 }
