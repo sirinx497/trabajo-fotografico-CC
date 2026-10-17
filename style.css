@@ -253,6 +253,7 @@ figcaption {
     color: #777;
     text-align: right;
     margin-top: 12px;
+    padding: 0 15px 15px 15px; 
     font-style: italic;
     transition: color 0.3s ease;
 }
