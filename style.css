@@ -287,22 +287,24 @@ figure:hover figcaption {
 .fotos-dobles {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 20px; 
     align-items: start; 
 }
 
-
 .fotos-dobles img {
-    aspect-ratio: 3 / 4; 
+    aspect-ratio: 3 / 4;
     object-fit: cover;
     width: 100%;
-    height: 100%; 
+    height: auto; /
     display: block;
 }
 
-
 .fotos-dobles figure {
-    margin: 20px 0; 
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
 }
 
 .fotos-grid-3 {
@@ -316,7 +318,7 @@ figure:hover figcaption {
 }
 
 /* 
-   PREGUNTA FINAL (ACADÉMICA)
+   PREGUNTA FINAL
     */
 .seccion-pregunta {
     margin: 80px 0;
@@ -420,9 +422,9 @@ figure:hover figcaption {
     */
 .layout-periodico {
     display: grid;
-    grid-template-columns: 1fr 1.5fr; 
-    gap: 40px; 
-    align-items: start; 
+    grid-template-columns: 1.2fr 1fr; 
+    gap: 40px;
+    align-items: center; 
     margin: 60px 0; 
 }
 
